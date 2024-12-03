@@ -1,0 +1,39 @@
+#container-pai{
+    background-color:rgb(129, 129, 129) ;
+    text-align: center;
+    display: flex; /*todos na mesma linha*/
+
+    justify-content: space-between; /*Controla como os filhos ficarão dispostos, espaçamento, etc.*/
+    /*Tipos:
+    Center: alinha para o centro;
+    (padrão:start);
+    space-between: separa o maximo possivel;
+    */
+
+    height: 300px; /*altura*/
+    flex-direction:row;
+    /*Controla a direção que os filhos serão dispostos; 
+    padrão:row(linha);
+    column(coluna);
+    row-reverse(inverte);
+    column-reverse(inverte a coluna).
+    */
+
+    align-items:stretch; /*padrão: stretch (estica)*/
+}
+
+.container-filho{
+    padding: 20px;
+    margin: 10px;
+}
+
+#filho-1{
+    background-color: aliceblue;
+}
+#filho-2{
+background-color: black;
+color: aliceblue;
+}
+#filho-3{
+background-color: rgba(0, 0, 0, 0.433);
+}
